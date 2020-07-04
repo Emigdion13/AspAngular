@@ -17,6 +17,9 @@ namespace DatingAPP.API.Data
                 new Value {Id =3, Name = "Value 103"}
             );
         }
+
+        public DbSet<User> Users {get ; set;}
     }
+
 
 }
